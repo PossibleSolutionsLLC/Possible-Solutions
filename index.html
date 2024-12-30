@@ -71,8 +71,14 @@
     <section id="appointment">
         <div class="container">
             <h2>Book an Appointment</h2>
-            <p>Schedule a consultation with us to discuss your needs.</p>
-            <iframe src="https://calendly.com/letusmakepossible" frameborder="0" style="width:100%; height:500px;"></iframe>
+            <div class="appointment-wrapper">
+                <p>Schedule a consultation with us to discuss your needs.</p>
+                <iframe src="https://calendly.com/letusmakepossible" frameborder="0" style="width:100%; height:500px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"></iframe>
+                <div class="appointment-art">
+                    <img src="https://example.com/appointment-art.png" alt="Appointment Art" style="width: 80%; margin-top: 2rem;">
+                </div>
+                <a href="#" class="cta-button">Secure Your Spot Now</a>
+            </div>
         </div>
     </section>
 
@@ -210,6 +216,18 @@
 
     .cta-button:hover {
         background: #feb47b;
+    }
+
+    .appointment-wrapper {
+        text-align: center;
+        padding: 2rem;
+        background: #ffeeba;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .appointment-art img {
+        margin: 2rem auto;
     }
 
     footer {
