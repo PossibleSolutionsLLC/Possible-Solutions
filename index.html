@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Possible Solutions LLC - Offering innovative solutions to daily problems.">
+    <title>Possible Solutions LLC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Possible Solutions LLC</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#appointment">Book Appointment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Innovative Solutions for Everyday Problems</h2>
+            <p>At Possible Solutions LLC, we focus on making life easier through creative problem-solving and tailored services.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Possible Solutions LLC is dedicated to providing practical and innovative solutions to everyday challenges. From individual needs to business services, we aim to be your go-to partner for reliable problem-solving.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Consultations for personal and business solutions</li>
+                <li>Customizable service packages to suit your needs</li>
+                <li>Ongoing support and maintenance</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/xqaalbeg" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <p>Schedule a consultation with us to discuss your needs.</p>
+            <iframe src="https://calendly.com/letusmakepossible" frameborder="0" style="width:100%; height:500px;"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Possible Solutions LLC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- Stylesheet (styles.css) -->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(90deg, #50C878, #32CD32);
+        color: white;
+        padding: 1rem 0;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 1rem;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #hero {
+        background: #2E8B57;
+        color: white;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    section {
+        margin: 2rem 0;
+    }
+
+    form label, form input, form textarea, form button {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    form input, form textarea {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    form button {
+        background: #32CD32;
+        color: white;
+        border: none;
+        padding: 0.75rem;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 4px;
+    }
+
+    form button:hover {
+        background: #228B22;
+    }
+
+    footer {
+        text-align: center;
+        background: #006400;
+        color: white;
+        padding: 1rem 0;
+    }
+</style>
